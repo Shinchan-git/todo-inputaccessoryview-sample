@@ -13,6 +13,8 @@
 		EB0D938F29926A0C005425F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0D938D29926A0C005425F2 /* Main.storyboard */; };
 		EB0D939129926A0E005425F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB0D939029926A0E005425F2 /* Assets.xcassets */; };
 		EB0D939429926A0E005425F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0D939229926A0E005425F2 /* LaunchScreen.storyboard */; };
+		EB0D939C29926E31005425F2 /* InputAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB0D939B29926E31005425F2 /* InputAccessoryView.xib */; };
+		EB0D939E29926E9D005425F2 /* InputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB0D939D29926E9D005425F2 /* InputAccessoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EB0D939029926A0E005425F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB0D939329926A0E005425F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB0D939529926A0E005425F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB0D939B29926E31005425F2 /* InputAccessoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InputAccessoryView.xib; sourceTree = "<group>"; };
+		EB0D939D29926E9D005425F2 /* InputAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputAccessoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				EB0D938729926A0C005425F2 /* AppDelegate.swift */,
 				EB0D938929926A0C005425F2 /* SceneDelegate.swift */,
 				EB0D938B29926A0C005425F2 /* ViewController.swift */,
+				EB0D939D29926E9D005425F2 /* InputAccessoryView.swift */,
+				EB0D939B29926E31005425F2 /* InputAccessoryView.xib */,
 				EB0D938D29926A0C005425F2 /* Main.storyboard */,
 				EB0D939029926A0E005425F2 /* Assets.xcassets */,
 				EB0D939229926A0E005425F2 /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 			files = (
 				EB0D939429926A0E005425F2 /* LaunchScreen.storyboard in Resources */,
 				EB0D939129926A0E005425F2 /* Assets.xcassets in Resources */,
+				EB0D939C29926E31005425F2 /* InputAccessoryView.xib in Resources */,
 				EB0D938F29926A0C005425F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				EB0D938C29926A0C005425F2 /* ViewController.swift in Sources */,
 				EB0D938829926A0C005425F2 /* AppDelegate.swift in Sources */,
+				EB0D939E29926E9D005425F2 /* InputAccessoryView.swift in Sources */,
 				EB0D938A29926A0C005425F2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
