@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     lazy var myInputAccessoryView: InputAccessoryView = {
         let view = InputAccessoryView()
         view.frame = .init(x: 0, y: 0, width: view.frame.size.width, height: 80)
-        view.delegate = self
         return view
     }()
     
