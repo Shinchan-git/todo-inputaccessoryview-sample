@@ -47,7 +47,6 @@ extension ViewController: UITableViewDataSource {
 
 extension ViewController: InputAccessoryViewDelegate {
     func tappedSendButton(text: String) {
-        print("RECEIVED TEXT: ", text)
         todos.append(text)
         tableView.reloadData()
     }
