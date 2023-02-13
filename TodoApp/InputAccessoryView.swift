@@ -24,17 +24,11 @@ class InputAccessoryView: UIView {
     }
     
     @IBAction func tappedSendButton() {
-        if let topViewController = getTopViewController() {
-            delegate = (topViewController as! any InputAccessoryViewDelegate)
-        }
-        
-        if let delegate {
-            delegate.tappedSendButton(text: textView.text)
-        } else {
-            print("delegate is nil")
-        }
+        delegate = (getTopViewController() as! any InputAccessoryViewDelegate)
+        delegate?.tappedSendButton(text: textView.text)
 
         textView.text = ""
+        textView.resignFirstResponder()
     }
     
     func getTopViewController() -> UIViewController? {
