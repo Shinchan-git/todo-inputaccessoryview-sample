@@ -31,7 +31,7 @@ class InputAccessoryView: UIView {
         if let delegate {
             delegate.tappedSendButton(text: textView.text)
         } else {
-            print("delegate is nill")
+            print("delegate is nil")
         }
 
         textView.text = ""
